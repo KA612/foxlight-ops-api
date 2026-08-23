@@ -1,0 +1,12 @@
+/* 1) Load fonts FIRST */
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&family=Archivo:wght@300;400;500;600;700&display=swap");
+
+/* 2) Then Tailwind */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* 3) Make Quicksand the default app font */
+@layer base {
+  body { @apply font-sans; }
+}

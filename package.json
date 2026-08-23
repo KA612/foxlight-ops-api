@@ -1,0 +1,10 @@
+{
+    "name": "foxlight-ops",
+    "version": "0.0.1",
+    "private": true,
+    "workspaces": [
+      "apps/ops-web",
+      "apps/ops-api"
+    ]
+  }
+  
